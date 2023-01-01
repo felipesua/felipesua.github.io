@@ -1,1 +1,1 @@
-require 'jekyll/scholar', group: :jekyll_plugins
+require 'jekyll/scholar'
