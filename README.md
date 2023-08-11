@@ -1,21 +1,6 @@
-# A website template for academics
+# Website
 
-## Users
-
-Some users:
-* [Ethan Pickering](https://ethan-pickering.github.io/)
-* [Lalit M. Pant](https://home.iitk.ac.in/~lalit/)
-* [Mohammad Afzal Shadab](https://mashadab.github.io/)
-* [Michael Berhanu](http://www.msc.univ-paris-diderot.fr/~berhanu/)
-* [Spike Research Group](https://spike.doc.ic.ac.uk/)
-* [Computational Physics @ GT](https://comp-physics.group) (my research group webpage)
-* [Aditya Sundar](https://adisun94.github.io/)
-* [Cheng-Chun (Barry) Lee](https://barrylee36.github.io/)
-* [ACME Group @ CMU](https://acme-group-cmu.github.io/)
-* [Minseok Song @ POSTECH](https://minseoksong.github.io/)
-* [Corey Callaghan @ UFlorida](https://www.coreytcallaghan.com/)
-
-## Introduction 
+## 1 Introduction 
 
 This is a statically-generated Jekyll/Liquid/Bootstrap-based website template for academics.
 I started with the [Allan lab](https://www.allanlab.org/) webpage and modified it into a personal academic webpage that met my requirements.
@@ -23,7 +8,7 @@ I worked in a unique set of the features that I desired and could not find in pu
 Some examples are:
 
 * Automatically-generated buttons for DOI/PDF/ARXIV/BIB/Abstract information
-  * via Jekyll Scholar
+* via Jekyll Scholar
 * Bibliography information and abstracts open in drown down wells via buttons
 * Fontawesome icons (email, CV, Google scholar, ResearchGate, GitHub, etc.)
 * Dark color scheme via Bootswatch
@@ -39,7 +24,7 @@ Broadly speaking, there are three steps:
 * [Customize](#customization)
 * [Host](#hosting)
 
-## Fork and build
+Fork and build
 
 * Fork [this repository](https://github.com/sbryngelson/sbryngelson.github.io) by clicking the `fork` button in the top-right corner of its Github page.
 * Install [Jekyll](https://jekyllrb.com/docs/installation/)  (version less than 4.0 required) on your local computer
@@ -53,7 +38,7 @@ Note:
 * This webpage uses Jekyll plugins like Jekyll Scholar to automatically build your bibliography. 
   If you are using Github pages then you will have to build the site with the `Rakefile` in the root directory of the source branch.
 
-## Customization
+## 2 Customization
 
 * Modify `_config.yml` as appropriate
 * Modify YAML database files, located in `_data/*.yml`, as appropriate
@@ -98,7 +83,7 @@ The publications and talks are now listed via Jekyll Scholar.
 The bibliography file `ref.bib` is located in the `cv/` directory.
 Modify according to your needs.
 
-## Hosting
+## 3 Hosting
 
 Once your site has been modified to fit your needs, you should host it somewhere so others can access it.
 
@@ -122,9 +107,25 @@ If you already have a hosting service for a static HTML webpage, such as some un
 Then, upload the resulting files located in the `_site/` directory via SSH or FTP to this server.
 Be sure that the `site.url` and `site.baseurl` are set appropriately in the `_config.yml` file.
 
+
+# Extras:
+
+Some users:
+* [Ethan Pickering](https://ethan-pickering.github.io/)
+* [Lalit M. Pant](https://home.iitk.ac.in/~lalit/)
+* [Mohammad Afzal Shadab](https://mashadab.github.io/)
+* [Michael Berhanu](http://www.msc.univ-paris-diderot.fr/~berhanu/)
+* [Spike Research Group](https://spike.doc.ic.ac.uk/)
+* [Computational Physics @ GT](https://comp-physics.group) (my research group webpage)
+* [Aditya Sundar](https://adisun94.github.io/)
+* [Cheng-Chun (Barry) Lee](https://barrylee36.github.io/)
+* [ACME Group @ CMU](https://acme-group-cmu.github.io/)
+* [Minseok Song @ POSTECH](https://minseoksong.github.io/)
+* [Corey Callaghan @ UFlorida](https://www.coreytcallaghan.com/)
+
 ## Alternatives
 
-### Static website generators
+## Static website generators
 
 A list of static webpage generators is available [here](https://www.staticgen.com/).
 For academic purposes, I believe most people use [Jekyll](https://jekyllrb.com/) or [Hugo](https://gohugo.io/).
@@ -133,7 +134,7 @@ However, both are relatively easy to use and offer many templates to base your i
 This, in combination with their large user bases, make them particularly attractive.
 This site is built with Jekyll.
 
-### Templates
+## Templates
 
 Other Jekyll templates are of course available.
 Some of these are viable for very simple academic pages with little tuning:
@@ -144,12 +145,12 @@ Some of these are viable for very simple academic pages with little tuning:
 However, they do not natively include many of the features I list at the top.
 For this reason, I decided to construct my own.
 
-## Acknowledgment
+Acknowledgment
 
 I credit the [Allen Lab](https://www.allanlab.org/) for creating a beautiful academic research group webpage.
 Many parts of this site were adopted or copied from their laboratory webpage.
 
-## License
+License
 
 Copyright 2021, Spencer H. Bryngelson and controlled via the MIT license.
 You can copy and mess with this template.

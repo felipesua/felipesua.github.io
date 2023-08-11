@@ -2403,7 +2403,7 @@ a.text-dark:hover, a.text-dark:focus { color: #121416 !important; }
 
 /*! Bootswatch v4.6.2 Homepage: https://bootswatch.com Copyright 2012-2022 Thomas Park Licensed under MIT Based on Bootstrap */
 /*! Bootstrap v4.6.2 (https://getbootstrap.com/) Copyright 2011-2022 The Bootstrap Authors Copyright 2011-2022 Twitter, Inc. Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE) */
-:root { --blue: #007bff; --indigo: #6610f2; --purple: #6f42c1; --pink: #e83e8c; --red: #d9534f; --orange: #fd7e14; --yellow: #f0ad4e; --green: #4bbf73; --teal: #20c997; --cyan: #1f9bcf; --white: #fff; --gray: #919aa1; --gray-dark: #343a40; --primary: #1a1a1a; --secondary: #fff; --success: #4bbf73; --info: #1f9bcf; --warning: #f0ad4e; --danger: #d9534f; --light: #fff; --dark: #343a40; --breakpoint-xs: 0; --breakpoint-sm: 576px; --breakpoint-md: 768px; --breakpoint-lg: 992px; --breakpoint-xl: 1200px; --font-family-sans-serif: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+:root { --blue: #0453a7; --indigo: #6610f2; --purple: #6f42c1; --pink: #e83e8c; --red: #d9534f; --orange: #fd7e14; --yellow: #f0ad4e; --green: #4bbf73; --teal: #20c997; --cyan: #1f9bcf; --white: #fff; --gray: #919aa1; --gray-dark: #343a40; --primary: #1a1a1a; --secondary: #fff; --success: #4bbf73; --info: #1f9bcf; --warning: #f0ad4e; --danger: #d9534f; --light: #fff; --dark: #343a40; /* background-color: #eef5e9; */ --breakpoint-xs: 0; --breakpoint-sm: 576px; --breakpoint-md: 768px; --breakpoint-lg: 992px; --breakpoint-xl: 1200px; --font-family-sans-serif: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
 *, *::before, *::after { box-sizing: border-box; }
 
@@ -2411,7 +2411,7 @@ html { font-family: sans-serif; line-height: 1.15; -webkit-text-size-adjust: 100
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section { display: block; }
 
-body { margin: 0; font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-size: 0.875rem; font-weight: 400; line-height: 1.5; color: #55595c; text-align: left; background-color: #fff; }
+body { margin: 0; font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-size: 0.875rem; font-weight: 400; line-height: 1.5; color: #000000; text-align: left; background-color: #d9e4da; }
 
 [tabindex="-1"]:focus:not(:focus-visible) { outline: 0 !important; }
 
@@ -2435,7 +2435,7 @@ dd { margin-bottom: .5rem; margin-left: 0; }
 
 blockquote { margin: 0 0 1rem; }
 
-b, strong { font-weight: bolder; }
+b, strong { font-weight: 900; }
 
 small { font-size: 80%; }
 
@@ -2445,7 +2445,7 @@ sub { bottom: -.25em; }
 
 sup { top: -.5em; }
 
-a { color: #1a1a1a; text-decoration: none; background-color: transparent; }
+a { color: #9a0731; text-decoration: none; background-color: transparent; }
 
 a:hover { color: black; text-decoration: underline; }
 
@@ -2465,7 +2465,7 @@ svg { overflow: hidden; vertical-align: middle; }
 
 table { border-collapse: collapse; }
 
-caption { padding-top: 0.75rem; padding-bottom: 0.75rem; color: #919aa1; text-align: left; caption-side: bottom; }
+caption { padding-top: 0.75rem; padding-bottom: 0.75rem; color: #532258; text-align: left; caption-side: bottom; }
 
 th { text-align: inherit; text-align: -webkit-match-parent; }
 
@@ -2823,7 +2823,7 @@ pre code { font-size: inherit; color: inherit; word-break: normal; }
 
 .table-responsive > .table-bordered { border: 0; }
 
-.form-control { display: block; width: 100%; height: calc(1.5em + 1.5rem + 2px); padding: 0.75rem 1.5rem; font-size: 0.875rem; font-weight: 400; line-height: 1.5; color: #55595c; background-color: #f7f7f9; background-clip: padding-box; border: 1px solid #ced4da; border-radius: 0; transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
+.form-control { display: block; width: 100%; height: calc(1.5em + 1.5rem + 2px); padding: 0.75rem 1.5rem; font-size: 0.875rem; font-weight: 400; line-height: 1.5; color: #5b555c; background-color: #f7f7f9; background-clip: padding-box; border: 1px solid #ced4da; border-radius: 0; transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
 
 @media (prefers-reduced-motion: reduce) { .form-control { transition: none; } }
 
@@ -3695,7 +3695,7 @@ input.btn-block[type="submit"], input.btn-block[type="reset"], input.btn-block[t
 
 .pagination { display: -ms-flexbox; display: flex; padding-left: 0; list-style: none; }
 
-.page-link { position: relative; display: block; padding: 0.5rem 0.75rem; margin-left: -1px; line-height: 1.25; color: #1a1a1a; background-color: #fff; border: 1px solid transparent; }
+.page-link { position: relative; display: block; padding: 0.5rem 0.75rem; margin-left: -1px; line-height: 1.25; color: #1a1a1a; background-color: #ffffff; border: 1px solid transparent; }
 
 .page-link:hover { z-index: 2; color: black; text-decoration: none; background-color: #f7f7f9; border-color: transparent; }
 
@@ -3771,7 +3771,7 @@ a.badge-dark:hover, a.badge-dark:focus { color: #fff; background-color: #1d2124;
 
 a.badge-dark:focus, a.badge-dark.focus { outline: 0; box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5); }
 
-.jumbotron { padding: 2rem 1rem; margin-bottom: 2rem; background-color: #f7f7f9; }
+.jumbotron { padding: 2rem 1rem; margin-bottom: 2rem; background-color: #eef5e9; }
 
 @media (min-width: 576px) { .jumbotron { padding: 4rem 2rem; } }
 
@@ -4229,7 +4229,7 @@ a.bg-danger:hover, a.bg-danger:focus, button.bg-danger:hover, button.bg-danger:f
 
 a.bg-light:hover, a.bg-light:focus, button.bg-light:hover, button.bg-light:focus { background-color: #e6e6e6 !important; }
 
-.bg-dark { background-color: #343a40 !important; }
+.bg-dark { background-color: #424a3c !important; }
 
 a.bg-dark:hover, a.bg-dark:focus, button.bg-dark:hover, button.bg-dark:focus { background-color: #1d2124 !important; }
 
